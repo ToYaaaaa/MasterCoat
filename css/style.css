@@ -4,6 +4,12 @@
   --primary_btn: rgba(0, 0, 0, 0);
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+}
+
 /* navbar */
 .navbarr {
   position: fixed;
@@ -30,13 +36,13 @@
 }
 
 .bottom .button {
-  padding: 0px 10px;
+  padding: 3px 10px;
   border-radius: 6px;
   background-color: #1ea802;
   color: white;
   /* box-shadow: 2px 2px 5px black; */
   border: none;
-  height: 35px;
+  height: 30px;
 }
 
 .navlist {
@@ -59,7 +65,7 @@
 
 .hero .description {
   position: absolute;
-  top: 30%;
+  top: 35%;
   color: white;
   left: 10%;
 }
@@ -68,20 +74,54 @@
   font-family: "Poppins", sans-serif;
   line-height: 130%;
   margin: 0;
-  font-weight: bold;
+  font-size: 55px;
+  font-weight: 600;
   text-shadow: 3px 3px 5px black;
 }
 .hero .description p,
-button {
+.button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
-.hero .description button {
-  margin-top: 10%;
+.hero .description .button {
+  margin-top: 2%;
   padding: 10px;
   color: white;
   border-radius: 6px;
   background-color: #1ea802;
   box-shadow: 2px 2px 5px black;
+}
+
+/* about us */
+.aboutus {
+  height: 100dvh;
+}
+
+.aboutus .image-stack {
+  position: relative;
+  width: 600px;
+  height: 450px;
+  margin: auto;
+}
+
+.aboutus .image-stack .img {
+  position: absolute;
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* gambar atas */
+.aboutus .image-stack .img-1 {
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* gambar bawah */
+.aboutus .image-stack .img-2 {
+  top: 160px;
+  left: 120px;
+  z-index: 1;
 }
