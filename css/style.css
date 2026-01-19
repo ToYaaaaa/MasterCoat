@@ -144,12 +144,6 @@ a {
   height: 70%;
 }
 
-.aboutus .description .top,
-.bottom {
-  padding: 0;
-  margin: 0;
-}
-
 .aboutus .description .bottom {
   display: none;
 }
@@ -160,7 +154,125 @@ a {
 
 .aboutus .description .button {
   padding: 6px 12px;
+  margin-top: 3%;
   color: white;
   border-radius: 6px;
   background-color: #027ca8;
+  border: none;
+}
+
+/* layanan */
+
+.layanan .sectionporto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: relative;
+  margin: -10% auto 0;
+  max-width: 1200px;
+}
+
+.layanan .sectionporto .section {
+  text-align: center;
+  width: 200px;
+  padding: 1%;
+}
+
+.layanan .sectionporto .section > h4 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.layanan .sectionporto .section:nth-child(1) {
+  background-color: #027ca8;
+  color: white;
+}
+.layanan .sectionporto .section:nth-child(2) {
+  background-color: #000000;
+  color: white;
+}
+.layanan .sectionporto .section:nth-child(3) {
+  background-color: #f5f5f5;
+  color: black;
+}
+.layanan .sectionporto .section:nth-child(4) {
+  background-color: #027ca8;
+  color: white;
+}
+
+.layanan .jenislayanan {
+  background-image: url("../image/bg-layanan4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.layanan .jenislayanan h4 {
+  color: #4773af;
+  font-weight: bold;
+  font-family: "poppins", sans-serif;
+  font-size: 32px;
+  margin-top: 2%;
+}
+
+.layanan .jenislayanan h1 {
+  font-weight: bold;
+  font-family: "poppins", sans-serif;
+}
+
+/* jenis layanan */
+/* membrane */
+.layanan .membrane {
+  margin-top: 3%;
+}
+
+.layanan .membrane .kategorimembrane {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* injeksi */
+.layanan .injeksi {
+  margin-top: 3%;
+}
+
+.layanan .injeksi .kategoriinjeksi {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* epoxy */
+.layanan .epoxy {
+  margin-top: 3%;
+}
+
+.layanan .epoxy .kategoriepoxy {
+  margin-top: 3%;
+  margin-left: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* coating */
+.layanan .coating {
+  margin-top: 3%;
+}
+
+.layanan .coating .kategoricoating {
+  margin-top: 3%;
+  margin-left: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
