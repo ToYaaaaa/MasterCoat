@@ -1,0 +1,12 @@
+const buttondescription = document.getElementById("buttondescription");
+const bottomdescription = document.getElementById("bottom");
+
+// menampilkan seluruh keterangan ketika di klik
+buttondescription.addEventListener("click", () => {
+  // kasih class active jika belum ada dan hapus jika sudah ada
+  bottomdescription.classList.toggle("active");
+  // ganti tulisan di button
+  buttondescription.textContent = bottomdescription.classList.contains("active")
+    ? "Read Less"
+    : "Read More";
+});
