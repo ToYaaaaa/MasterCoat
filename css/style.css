@@ -162,7 +162,6 @@ a {
 }
 
 /* layanan */
-
 .layanan .sectionporto {
   display: flex;
   flex-direction: row;
@@ -206,13 +205,13 @@ a {
   background-image: url("../image/bg-layanan4.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 5%;
   width: 100%;
   padding-top: 5%;
   text-align: center;
 }
 
 .layanan .jenislayanan h4 {
-  color: #4773af;
   font-weight: bold;
   font-family: "poppins", sans-serif;
   font-size: 32px;
@@ -260,12 +259,13 @@ a {
   margin-top: 3%;
   margin-left: 3%;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 /* coating */
-.layanan .coating {
+/* .layanan .coating {
   margin-top: 3%;
 }
 
@@ -275,4 +275,108 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+} */
+
+/* Alasan */
+.alasan {
+  /* max-width: 1200px; */
+  width: 100%;
+  padding-top: 3rem;
+  gap: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ebebebee;
+  padding-bottom: 5%;
+}
+
+.alasan .wrapperlist {
+  max-width: 1000px;
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.alasan .wrapperlist .list {
+  max-width: 15rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
+}
+
+.alasan .wrapperlist .list h5 {
+  margin-bottom: 10px;
+  color: #4773af;
+  font-size: clamp(18px, 1.1vw, 20px);
+}
+
+/* review */
+.review .text {
+  text-align: center;
+}
+
+.review {
+  /* max-width: 1200px; */
+  width: 100%;
+  padding-top: 3rem;
+  gap: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ebebebee;
+  padding-bottom: 5%;
+}
+
+.review .wrapperlist {
+  max-width: 1200px;
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.review .wrapperlist .list {
+  max-width: 20rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
+}
+
+.review .wrapperlist .list .top img {
+  border-radius: 50%;
+}
+
+.review .wrapperlist .list h5 {
+  margin-bottom: 10px;
+  color: #4773af;
+  font-size: clamp(18px, 1.1vw, 20px);
+}
+
+/* footer */
+.footer {
+  padding: 2rem;
+  background-color: #6c7e8e;
+  color: white;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .left {
+  max-width: 25rem;
+}
+
+.footer .left .listleft {
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .right {
+  max-width: 25rem;
+}
+.footer .right p {
+  margin: 0;
 }
