@@ -26,7 +26,7 @@
 
   .navlist li::after {
     content: "";
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     padding-bottom: 0.1rem;
     display: block;
   }
@@ -36,6 +36,13 @@
   }
 
   /* Hero */
+
+  .hero .description p {
+    font-size: clamp(15px, 1vw, 1rem);
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-weight: bold;
+  }
 
   /* About Us */
   .aboutus {
@@ -94,6 +101,21 @@
     position: static;
     flex-wrap: wrap;
     margin-top: 1rem;
+    padding: 0;
+  }
+
+  .layanan .sectionporto p {
+    margin: 0;
+  }
+
+  .layanan .sectionporto .section > h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  .layanan .sectionporto .section > p {
+    font-size: 0.8rem;
+    margin: 0;
   }
 
   .layanan .sectionporto .section {
@@ -157,6 +179,9 @@
   /* Alasan */
 
   /* Review */
+  .review .text p {
+    font-size: 0.8rem;
+  }
 
   /* Footer */
 }

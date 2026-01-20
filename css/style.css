@@ -3,6 +3,7 @@
   padding: 0;
   --primary_btn: rgba(0, 0, 0, 0);
   /* box-sizing: border-box; */
+  font-family: "poppins" sans-serif;
 }
 
 a {
@@ -83,6 +84,11 @@ a {
   font-weight: 600;
   text-shadow: 3px 3px 5px black;
 }
+.hero .description p {
+  font-size: clamp(20px, 1.5vw, 1.5rem);
+  text-shadow: 2px 2px 2px black;
+}
+
 .hero .description p,
 .button {
   font-family: "Poppins", sans-serif;
@@ -186,6 +192,10 @@ a {
   position: relative;
   margin: -10% auto 0;
   max-width: 1200px;
+  padding: 1%;
+}
+.layanan .sectionporto p {
+  margin: 0;
 }
 
 .layanan .sectionporto .section {
