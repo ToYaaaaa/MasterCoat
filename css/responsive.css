@@ -186,9 +186,10 @@
   /* Alasan */
 
   /* Review */
-  /* .review .text p {
+  .review .text p {
     font-size: 0.8rem;
-  } */
+    margin: 0 2%;
+  }
 
   /* Footer */
 }
