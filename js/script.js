@@ -19,5 +19,9 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     loader.classList.add("hidden");
     document.body.classList.remove("loading");
+    if ("scrollRestoration" in history) {
+      history.scrollRestoration = "manual";
+    }
+    window.scrollTo(0, 0);
   }, 2000);
 });
