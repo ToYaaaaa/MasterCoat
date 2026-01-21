@@ -1,3 +1,4 @@
+// about us section
 const buttondescription = document.getElementById("buttondescription");
 const bottomdescription = document.getElementById("bottom");
 
@@ -9,4 +10,14 @@ buttondescription.addEventListener("click", () => {
   buttondescription.textContent = bottomdescription.classList.contains("active")
     ? "Read Less"
     : "Read More";
+});
+
+// loader saat dibuka
+window.addEventListener("load", () => {
+  const loader = document.getElementById("loader");
+
+  setTimeout(() => {
+    loader.classList.add("hidden");
+    document.body.classList.remove("loading");
+  }, 2000);
 });
