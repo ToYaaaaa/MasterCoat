@@ -410,6 +410,9 @@ body.loading {
   color: #4773af;
   font-size: clamp(18px, 1.1vw, 20px);
 }
+/* 
+.review .text p {
+  } */
 
 /* footer */
 .footer {
